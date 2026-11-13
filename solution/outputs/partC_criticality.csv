@@ -1,0 +1,40 @@
+activity,name,TF_A,CI,CI_double,on_CP_A
+A1,Soil Research,0,1.0,1.0,yes
+A2,Calculations,0,1.0,1.0,yes
+A3,Building site preparation,8,0.0,0.0,no
+A4,Building foundation,0,1.0,1.0,yes
+A5,Sewerage & drainage system,0,1.0,1.0,yes
+A6,Building groundfloor,0,1.0,1.0,yes
+A7,Building first floor,0,1.0,1.0,yes
+A8,Test jointing,100,0.0,0.0,no
+A9,Choosing joint type,100,0.0,0.0,no
+A10,Jointing,75,0.0,0.0,no
+A11,Scaffolding,0,1.0,1.0,yes
+A12,Building roof framework,0,1.0,1.0,yes
+A13,Roof covering,0,1.0,1.0,yes
+A14,Electricity,1,0.0012,0.0985,no
+A15,Sanitary,0,0.9988,0.9015,yes
+A16,Placing windows,0,1.0,1.0,yes
+A17,Underfloor heating,4,0.0,0.0,no
+A18,Laying floor screed,0,1.0,1.0,yes
+A19,Configurating underfloor heating,4,0.0,0.03435,no
+A20,Plastering,0,1.0,0.96565,yes
+A21,Floor tiling,0,1.0,1.0,yes
+A22,Carpenting,0,1.0,1.0,yes
+A23,Painting,0,1.0,1.0,yes
+A24,Finishing up,0,1.0,1.0,yes
+A25,Installation of kitchen,1,0.0,0.0333,no
+A26,Installation of bathroom,0,1.0,0.9667,yes
+A27,Cleaning up,0,1.0,1.0,yes
+A28,Installation solar panels,12,0.0,0.0,no
+A29,Garden site preparation,0,1.0,1.0,yes
+A30,Garden landscaping,0,1.0,0.99975,yes
+A31,Terrace construction,3,0.0,0.00025,no
+A32,Moving of furniture,6,0.0,0.0,no
+A33,Final inspection,0,1.0,1.0,yes
+W1,(wait 4d after Soil Research),0,1.0,1.0,yes
+W2,(wait 5d after Choosing joint type),100,0.0,0.0,no
+W3,(wait 20d after Laying floor screed),0,1.0,1.0,yes
+W4,(wait 10d after Configurating underfloor heating),4,0.0,0.03435,no
+W5,(wait 1d after Floor tiling),0,1.0,1.0,yes
+W6,(wait 3d after Plastering),8,0.0,0.0,no

@@ -1,0 +1,14 @@
+{
+ "subset": [
+  "A13",
+  "A15",
+  "A17",
+  "A18"
+ ],
+ "cp": 22,
+ "milp": 25.0,
+ "lp_agg": 22.0,
+ "lp_disagg": 22.66536964980545,
+ "lp_agg_cover": 22.0,
+ "lp_disagg_cover": 23.5
+}

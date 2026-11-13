@@ -1,0 +1,8 @@
+resource,period,usage,capacity,excess,activities
+Cement Mason,26,3.33,2.0,1.33,A7;A8
+Cement Mason,27,4.0,2.0,2.0,A7;A9
+Labourer,62,3.2,3.0,0.2,A10;A16
+Labourer,63,3.2,3.0,0.2,A10;A16
+Plumber,58,2.57,2.0,0.57,A15;A17
+Plumber,59,2.57,2.0,0.57,A15;A17
+Plumber,60,2.57,2.0,0.57,A15;A17

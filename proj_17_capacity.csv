@@ -1,0 +1,11 @@
+resource,type,capacity
+Concrete Mixer,Renewable,1
+Cement Mason,Renewable,2
+Carpenter,Renewable,2
+Labourer,Renewable,3
+Crane,Renewable,1
+Painter,Renewable,2
+Digger,Renewable,1
+Roofer,Renewable,2
+Plumber,Renewable,2
+Electrician,Renewable,2

@@ -1,0 +1,7 @@
+scheme,rule,makespan
+serial,LFT,140
+serial,LST,140
+serial,GRPW,140
+parallel,LFT,142
+parallel,LST,142
+parallel,GRPW,142

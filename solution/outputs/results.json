@@ -1,0 +1,352 @@
+{
+ "n_activities": 39,
+ "n_arcs": 54,
+ "order_strength": 0.8245614035087719,
+ "duration_A": 140,
+ "critical_path": [
+  "A1",
+  "A2",
+  "A4",
+  "A5",
+  "A6",
+  "A7",
+  "A11",
+  "A12",
+  "A13",
+  "A15",
+  "A16",
+  "A18",
+  "A20",
+  "A21",
+  "A22",
+  "A23",
+  "A24",
+  "A26",
+  "A27",
+  "A29",
+  "A30",
+  "A33",
+  "W1",
+  "W3",
+  "W5"
+ ],
+ "planner_baseline": 144,
+ "span_weekdays": 145,
+ "span_net": 140,
+ "named": {
+  "A1": {
+   "TF": 0,
+   "FF": 0,
+   "SF": 0,
+   "IF": 0,
+   "preds": [],
+   "succs": [
+    "A3",
+    "W1"
+   ],
+   "dur": 1
+  },
+  "A3": {
+   "TF": 8,
+   "FF": 8,
+   "SF": 8,
+   "IF": 8,
+   "preds": [
+    "A1"
+   ],
+   "succs": [
+    "A4"
+   ],
+   "dur": 1
+  },
+  "A10": {
+   "TF": 75,
+   "FF": 75,
+   "SF": 0,
+   "IF": 0,
+   "preds": [
+    "A13",
+    "W2"
+   ],
+   "succs": [
+    "A33"
+   ],
+   "dur": 6
+  }
+ },
+ "total_idle_days": 21,
+ "idle_top": [
+  {
+   "activity": "A10",
+   "name": "Jointing",
+   "gap": 11
+  },
+  {
+   "activity": "A8",
+   "name": "Test jointing",
+   "gap": 7
+  },
+  {
+   "activity": "A17",
+   "name": "Underfloor heating",
+   "gap": 3
+  }
+ ],
+ "shortest_crashed": 120,
+ "deadline_B": 130,
+ "crash_cost_B": 9271.53,
+ "crashed_B": {
+  "A4": 2,
+  "A5": 1,
+  "A13": 3,
+  "A16": 1,
+  "A22": 1,
+  "A26": 1,
+  "A30": 1
+ },
+ "optimal_duration_B": 128,
+ "optimal_total_cost_B": 187189.71,
+ "total_at_star_minus3": 187736.71,
+ "total_at_star_plus3": 187665.47,
+ "pert_duration": 140.0,
+ "cp_variance": 4.164444444444445,
+ "cp_sd": 2.040697048668529,
+ "sim1": {
+  "mean": 140.02808684251687,
+  "sd": 2.3286209721685056,
+  "p10": 137.02656723553937,
+  "p50": 140.0440213868613,
+  "p90": 143.03093915174978,
+  "p_le_pert": 0.4927,
+  "gap_mean": 0.028086842516870547,
+  "max": 148.5852854985253
+ },
+ "sim2": {
+  "mean": 140.00618016870507,
+  "sd": 4.594770769741785,
+  "p10": 134.0676870891319,
+  "p50": 139.999013750274,
+  "p90": 145.9355461113809,
+  "p_le_pert": 0.50015,
+  "gap_mean": 0.006180168705071765,
+  "max": 156.51496626086882
+ },
+ "actual": {
+  "duration_days": 204,
+  "cost": 314856.0,
+  "source": "DSLIB analysis sheet, realised duration and cost"
+ },
+ "actual_percentile": 1.0,
+ "breaches": 7,
+ "forbidden_pairs_all": 108,
+ "forbidden_triples_all": 23,
+ "forbidden_pairs_genuine": [
+  [
+   "A7",
+   "A8"
+  ],
+  [
+   "A7",
+   "A9"
+  ],
+  [
+   "A9",
+   "A18"
+  ],
+  [
+   "A10",
+   "A16"
+  ],
+  [
+   "A10",
+   "A18"
+  ],
+  [
+   "A15",
+   "A17"
+  ]
+ ],
+ "forbidden_triples_genuine": [],
+ "sgs": [
+  {
+   "scheme": "serial",
+   "rule": "LFT",
+   "makespan": 140
+  },
+  {
+   "scheme": "serial",
+   "rule": "LST",
+   "makespan": 140
+  },
+  {
+   "scheme": "serial",
+   "rule": "GRPW",
+   "makespan": 140
+  },
+  {
+   "scheme": "parallel",
+   "rule": "LFT",
+   "makespan": 142
+  },
+  {
+   "scheme": "parallel",
+   "rule": "LST",
+   "makespan": 142
+  },
+  {
+   "scheme": "parallel",
+   "rule": "GRPW",
+   "makespan": 142
+  }
+ ],
+ "best_heuristic": 140,
+ "best_heuristic_combo": {
+  "scheme": "serial",
+  "rule": "LFT",
+  "makespan": 140
+ },
+ "horizon_E": 140,
+ "nbin_windows": 465,
+ "nbin_nowindows": 5316,
+ "milp_ub": 140.0,
+ "milp_lb": 140.0,
+ "milp_term": "TerminationCondition.optimal",
+ "lp_disagg": 140.0,
+ "lp_agg": 140.0,
+ "covers": [
+  {
+   "set": "A7,A8",
+   "names": "Building first floor+Test jointing",
+   "bound": 140.0,
+   "delta": 0.0
+  },
+  {
+   "set": "A7,A9",
+   "names": "Building first floor+Choosing joint type",
+   "bound": 140.0,
+   "delta": 0.0
+  },
+  {
+   "set": "A18,A9",
+   "names": "Laying floor screed+Choosing joint type",
+   "bound": 140.0,
+   "delta": 0.0
+  },
+  {
+   "set": "A10,A16",
+   "names": "Jointing+Placing windows",
+   "bound": 140.0,
+   "delta": 0.0
+  },
+  {
+   "set": "A10,A18",
+   "names": "Jointing+Laying floor screed",
+   "bound": 140.0,
+   "delta": 0.0
+  },
+  {
+   "set": "A15,A17",
+   "names": "Sanitary+Underfloor heating",
+   "bound": 140.0,
+   "delta": 0.0
+  }
+ ],
+ "lp_agg_all_covers": 140.0,
+ "n_maximal_paths": 1100,
+ "path_length_hist": [
+  [
+   140,
+   1
+  ],
+  [
+   139,
+   2
+  ],
+  [
+   138,
+   3
+  ],
+  [
+   137,
+   6
+  ],
+  [
+   136,
+   9
+  ],
+  [
+   135,
+   11
+  ],
+  [
+   134,
+   17
+  ],
+  [
+   133,
+   21
+  ]
+ ],
+ "n_paths_within_1sd": 6,
+ "challengers": [
+  {
+   "length": 140,
+   "n_activities": 25,
+   "shared_with_cp": 25
+  },
+  {
+   "length": 139,
+   "n_activities": 25,
+   "shared_with_cp": 24
+  },
+  {
+   "length": 139,
+   "n_activities": 25,
+   "shared_with_cp": 24
+  },
+  {
+   "length": 138,
+   "n_activities": 25,
+   "shared_with_cp": 23
+  },
+  {
+   "length": 138,
+   "n_activities": 24,
+   "shared_with_cp": 24
+  },
+  {
+   "length": 138,
+   "n_activities": 24,
+   "shared_with_cp": 24
+  }
+ ],
+ "parallel_LFT_delay": {
+  "activity": "A16",
+  "delay_days": 2,
+  "blockers": [
+   [
+    "A10",
+    "Labourer",
+    75
+   ]
+  ],
+  "a10_start": 58,
+  "a16_start": 64
+ },
+ "scaled_08_serial_makespan": 140,
+ "toy": {
+  "subset": [
+   "A13",
+   "A15",
+   "A17",
+   "A18"
+  ],
+  "cp": 22,
+  "milp": 25.0,
+  "lp_agg": 22.0,
+  "lp_disagg": 22.66536964980545,
+  "lp_agg_cover": 22.0,
+  "lp_disagg_cover": 23.5
+ },
+ "total_baseline_direct_cost": 241015.0
+}

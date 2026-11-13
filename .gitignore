@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+announcement.txt
+assignment-2-project-scheduling.pdf

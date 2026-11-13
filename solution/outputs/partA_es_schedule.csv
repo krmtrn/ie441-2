@@ -1,0 +1,40 @@
+activity,name,start,finish,critical
+A1,Soil Research,0,1,yes
+A2,Calculations,5,10,yes
+A3,Building site preparation,1,2,no
+A4,Building foundation,10,17,yes
+A5,Sewerage & drainage system,17,19,yes
+A6,Building groundfloor,19,26,yes
+A7,Building first floor,26,33,yes
+A8,Test jointing,26,27,no
+A9,Choosing joint type,27,28,no
+A10,Jointing,58,64,no
+A11,Scaffolding,33,35,yes
+A12,Building roof framework,35,44,yes
+A13,Roof covering,44,58,yes
+A14,Electricity,58,61,no
+A15,Sanitary,58,62,yes
+A16,Placing windows,62,65,yes
+A17,Underfloor heating,58,61,no
+A18,Laying floor screed,65,69,yes
+A19,Configurating underfloor heating,89,90,no
+A20,Plastering,89,104,yes
+A21,Floor tiling,104,111,yes
+A22,Carpenting,112,115,yes
+A23,Painting,115,125,yes
+A24,Finishing up,125,127,yes
+A25,Installation of kitchen,127,129,no
+A26,Installation of bathroom,127,130,yes
+A27,Cleaning up,130,131,yes
+A28,Installation solar panels,125,127,no
+A29,Garden site preparation,131,133,yes
+A30,Garden landscaping,133,139,yes
+A31,Terrace construction,133,136,no
+A32,Moving of furniture,131,133,no
+A33,Final inspection,139,140,yes
+W1,(wait 4d after Soil Research),1,5,yes
+W2,(wait 5d after Choosing joint type),28,33,no
+W3,(wait 20d after Laying floor screed),69,89,yes
+W4,(wait 10d after Configurating underfloor heating),90,100,no
+W5,(wait 1d after Floor tiling),111,112,yes
+W6,(wait 3d after Plastering),104,107,no

@@ -1,0 +1,49 @@
+activity,resource,units
+A3,Cement Mason,1.0
+A3,Labourer,3.0
+A3,Digger,1.0
+A4,Concrete Mixer,0.67
+A4,Cement Mason,0.67
+A4,Labourer,2.0
+A4,Digger,0.67
+A5,Cement Mason,1.0
+A5,Labourer,3.0
+A5,Crane,1.0
+A5,Digger,1.0
+A6,Concrete Mixer,1.0
+A6,Cement Mason,2.0
+A6,Labourer,3.0
+A6,Crane,1.0
+A7,Concrete Mixer,1.0
+A7,Cement Mason,2.0
+A7,Labourer,3.0
+A7,Crane,1.0
+A8,Cement Mason,1.33
+A9,Cement Mason,2.0
+A10,Concrete Mixer,0.8
+A10,Cement Mason,1.6
+A10,Labourer,0.8
+A11,Labourer,1.6
+A12,Labourer,0.67
+A12,Roofer,1.33
+A13,Labourer,1.0
+A13,Crane,1.0
+A13,Roofer,2.0
+A14,Electrician,1.6
+A15,Plumber,2.0
+A16,Labourer,2.4
+A17,Labourer,0.57
+A17,Plumber,0.57
+A18,Concrete Mixer,0.67
+A18,Cement Mason,0.67
+A18,Labourer,2.0
+A19,Plumber,0.67
+A20,Labourer,2.0
+A21,Labourer,2.0
+A22,Carpenter,1.6
+A23,Painter,2.0
+A24,Labourer,2.0
+A24,Carpenter,2.0
+A24,Plumber,2.0
+A24,Electrician,2.0
+A27,Labourer,1.71

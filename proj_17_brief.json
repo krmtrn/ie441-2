@@ -1,0 +1,30 @@
+{
+  "group": "17",
+  "dslib_code": "C2012-17",
+  "project": "Building a Dream",
+  "sector": "Construction (residential building)",
+  "activities": 39,
+  "resources": 10,
+  "inserted_wait_activities": 6,
+  "planner_baseline_duration_days": 144,
+  "indirect_cost_per_day": 1370.43,
+  "named_activities": [
+    "A1",
+    "A3",
+    "A10"
+  ],
+  "generated_columns": [
+    "proj_GG_tct.csv (all)",
+    "indirect_cost_per_day"
+  ],
+  "actual_outcome": {
+    "duration_days": 204,
+    "cost": 314856.0,
+    "source": "DSLIB analysis sheet, realised duration and cost"
+  },
+  "link_provenance": {
+    "links": 48,
+    "non_finish_to_start_simplified": 3,
+    "positive_lags_modelled_as_waits": 8
+  }
+}
